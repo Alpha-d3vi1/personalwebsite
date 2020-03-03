@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    font-family: 'Oxanium';
+}
+h1{
+    font-size: 40px;
+}
+h3{
+    font-size: 20px;
+}
+.name-highlight{
+    color: teal;
+}
+.name-high2{
+    color: turquoise;
+    font-size: 30px;
+}
+.half-width{
+    width: 40%;
+    height: 73%;
+    float: left;
+    margin: 5%;
+    padding-left: 6%;
+    padding-top: 6%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    border-right: 7px solid;
+    border-image: linear-gradient(360deg,blue,red);
+    border-image-slice: 1;
+
+}
+.half-width img{
+    width: 140%;
+}
+.top-banner{
+    background-image: url(header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+section{
+    height: 500px;
+    padding-bottom: 100px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: teal;
+    background-image: linear-gradient(45deg,green,teal);
+    padding: 10px 25px;
+    border-radius: 11px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.dream-area{
+    background-image: url(biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.half-width2{
+    height:60%;
+    width: 25%;
+    float: left;
+    margin: 2%;
+    padding-left: 6%;
+    padding-right: 1%;
+    padding-top: 4%;
+    padding-bottom: 6%;
+}
+.half-width2 img{
+    width: 120%;
+}
+.half-width3{
+    width: 40%;
+    float: left;
+    margin: 5%;
+    padding-left: 10%;
+    padding-right: 1%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(360deg,blue,red);
+    border-image-slice: 1;
+}
+
+  .work{
+    background-image: url(latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+   #lwork{
+       text-align: center;
+       color: darkcyan;
+       font-family: 'Times New Roman';
+   }
+   .row {
+    display: flex;
+    padding: 100px;   
+  }
+  
+  .column {
+    flex: 33.33%;
+  }
+  #work1{
+      padding-right: 20px;
+  }
+  #client{
+      text-align: center;
+      font-size: 20px;
+      font-weight: 800;
+  }
+  #occupation{
+      text-align: center;
+      font-size: 15px;
+      font-weight: 100;
+  }
+  #thoughts{
+      text-align: center;
+      font-size: 17px;
+      font-weight: 600;
+  }
+  .lastpage{
+    background-image: url(footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.block{
+    text-align: center;
+    text-decoration: none;
+    background-color: teal;
+    background-image: linear-gradient(45deg,green,teal);
+    padding: 10px 25px;
+    border-radius: 11px;
+    color: whitesmoke;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#lastbutton{
+    text-align: center;
+}
+#msg{
+    font-size: 10px;
+    font-weight: 400;
+}
+#email{
+    font-size: 20px;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+}
+
